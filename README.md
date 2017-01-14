@@ -12,7 +12,12 @@ If at all possible, you should _NOT_ be using this technique. I
 created this because I have worked with plenty of Handlebars or
 other template based UIs that are still using `$.html` to render
 the internals of it's applications. This is hard on the browser
-and either the user or developer.
+and either the user or developer. _If you are starting a new
+project, please use one of the many fully fleshed out declarative
+UI libraries out there._ However, if you are stuck maintaining
+an older application where it would be too extensive to replace
+jQuery, this could be a way to implement Virtual DOM on that
+legacy application.
 
 ### Benefits of Virtual DOM
 
