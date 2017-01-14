@@ -3,8 +3,9 @@ This is an example module showing how you can use virtual DOM
 in a jQuery environment. This is only created as an example so
 you will most likely need to create your own version of the
 `index.js` using whatever dependency loader / bundler your
-project uses. Inside `demo/` I've created an example that uses
-the module along with webpack as the bundler.
+project uses. I've created an [example](https://jamesnimlos.github.io/jquery-vhtml/) that uses
+the module along with webpack as the bundler and the source
+code can be seen in [`/demo`](demo).
 
 ### Benefits of Virtual DOM
 
@@ -31,7 +32,7 @@ they are a major benefit during development. The centralized
 rendering of the view contains all logic necessary in one place
 instead of scattered around to ensure good user experience.
 
-### Demo
+### Run the demo locally
 1. install dependencies at root
 ```sh
 cd jquery-vhtml

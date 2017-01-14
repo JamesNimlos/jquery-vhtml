@@ -3,3 +3,5 @@ node_modules
 demo/bundle.js
 demo/certs
 dist
+# keep gh-pages from being committed in main
+gh-pages
