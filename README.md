@@ -51,26 +51,26 @@ state.
 1. install dependencies at root
 ```sh
 cd jquery-vhtml
-yarn || npm install
+yarn install # or `npm install`
 ```
 2. install dependencies inside demo
 ```sh
 cd demo
-yarn || npm install
+yarn install # or `npm install`
 ```
 3. start the bundle and watch for changes
 ```sh
-npm run build
+yarn build # or `npm run build`
 ```
 4. start a static server in this location
 ```sh
-npm install -g http-server
+yarn global add http-server # or `npm install -g http-server`
 http-server ./
 ```
 5. view the demo page at [http://localhost:8080](http://localhost:8080)
 
 ### TODO
-- [ ] make the [logic for replacing the internals](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FJamesNimlos%2Fjquery-vhtml%2Fblob%2Fmaster%2Findex.js%23L23-L28&sa=D&sntz=1&usg=AFQjCNFk-kQHh1to4mrUk1aofR3jiufzUA)
+- [ ] make the [logic for replacing the internals](https://github.com/JamesNimlos/jquery-vhtml/blob/master/index.js#L23-L28)
 more robust.
 - [ ] make an exportable dist
 - [ ] make an example using requirejs
